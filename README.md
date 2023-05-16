@@ -38,6 +38,9 @@ Using Gephi, we’re able to observe that users who speak the same language seem
 # Some statistics regarding the network
 ![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/f09e1150-79ba-4b50-b1e7-743d6f5b1513)
 
+
+![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/930a3901-bdda-45a9-a6d9-031d9fd5c307)
+
 # Research Question
 Do language barriers affect the structure of social networks?
 
@@ -61,30 +64,30 @@ For the calculations, I created a function that receives two languages and predi
 
 The number in red is the expected number of edges between nodes speaking these languages, while the number in black is the actual number of edges in the graph.
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/6460e97b-381d-4437-aee0-9de0bb41ecee)
+![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/a28e3399-9888-4331-b6f5-877c0189bcbd)
 
 
 The English language is spoken in most countries around the world, we can see in all cases the number of actual edges is higher than the expected number, which emphasizes the importance and popularity of English.
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/337ab601-9a81-4127-80ce-a2a401ebb3ed)
+![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/1b556870-ccf6-4ff4-9d5f-75f2da354edd)
 
 In the case of edges between Chinese-English and French-English streamers, the number of actual edges is significantly higher than expected. This could indicate that French or Chinese-speaking users are more likely to follow English-speaking users or vice versa, perhaps due to shared interests or content.
 Another cause might be a large number of Chinese-speaking immigrants in the United States, as for French-English, many people from countries who have been under French and British colonization such as Canada and India can speak both languages fluently.
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/0dc6a8e5-9c38-427a-b4f8-e7b41791d4da)
+![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/5e757d6e-cc6e-4283-8ab5-c798f0fa9fe9)
 
 For people who speak Russian and German, The number of expected edges is always higher than the actual number (other than in the case of English which we explained earlier) this suggests that there are fewer users who speak German or Russian as an additional language.
 Another reason might be that Russian and German speakers do not tend to follow streamers who speak a different language than them and vice versa, this may be due to the difficulty of these languages, or cultural differences in general, where people from Russia or Germany have more niche interests that are culture-specific.
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/0542645c-646f-49fd-8181-1405a13c4b96)
+![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/9312b77a-673f-45b1-a4d1-0586817b7269)
 
 The number of actual edges between users who speak the same language is significantly higher than expected for all the languages we checked. 
 This indicates that there is a strong tendency for people who speak the same language to form relationships with each other.
 This might stem from a variety of factors such as sharing common cultural values, beliefs, practices, and norms, shared interests in general, or greater ease of communication, where they don’t have to make an extra effort to understand what the other person is saying.
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/9aba3055-523e-4689-b129-9dc1fb243a62)
+![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/ebf6cb1c-b5dc-43ec-b7c1-a86080017695)
 
-# Results
+# Findings
  Based on the results, it appears that language barriers do have an impact on the structure of social networks.
 
  The number of edges between nodes speaking different languages is generally lower than the expected number of edges, while the number of edges between nodes speaking the same language is generally and significantly higher than the expected number of edges. 
