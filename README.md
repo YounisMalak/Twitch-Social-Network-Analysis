@@ -1,6 +1,6 @@
 
 # Twitch Streamers Social Network
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/52be33c6-97bd-4756-8aa2-e7fcbe49e547)
+![image](Screenshots/Picture11.png)
 
 In this research I tried to see if language barriers affect the structure of a social network comprising of different Twitch streamers and their following relationships, so let's dive in!
 
@@ -13,7 +13,7 @@ https://snap.stanford.edu/data/twitch_gamers.html
 The original dataset contained around 168K Nodes and 6.8M 
 Edges and looked something like this:
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/00a4d543-12d7-40e8-9dab-58bc63389afc)
+![image](Screenshots/Picture1.png)
 
 6% of the Nodes and 0.3% of the Edges were kept, making sure to maintain the ratio of languages spoken and ending up with a network consisting of 10k Nodes and 24k Edges.
 
@@ -24,22 +24,22 @@ Understandably this might affect the results; therefore, it's recommended for fu
 # The Data
 Nodes Table
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/fe19765c-9dfd-4dd0-98f8-7246635231fc)
+![image](Screenshots/Picture2.png)
 
 Edges Table
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/35364a35-fa18-4a2b-9644-9030550a0830)
+![image](Screenshots/Picture3.png)
 
 # The Graph
 Using Gephi, we’re able to observe that users who speak the same language seem to cluster together
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/298782e4-3051-4ac3-b398-aab4c90be96f)
+![image](Screenshots/Picture4.png)
 
 # Some statistics regarding the network
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/f09e1150-79ba-4b50-b1e7-743d6f5b1513)
+![image](Screenshots/Picture12.png)
 
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/930a3901-bdda-45a9-a6d9-031d9fd5c307)
+![image](Screenshots/Picture5.png)
 
 # Research Question
 Do language barriers affect the structure of social networks?
@@ -64,36 +64,36 @@ For the calculations, I created a function that receives two languages and predi
 
 The number in red is the expected number of edges between nodes speaking these languages, while the number in black is the actual number of edges in the graph.
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/a28e3399-9888-4331-b6f5-877c0189bcbd)
+![image](Screenshots/Picture6.png)
 
 
 The English language is spoken in most countries around the world, we can see in all cases the number of actual edges is higher than the expected number, which emphasizes the importance and popularity of English.
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/1b556870-ccf6-4ff4-9d5f-75f2da354edd)
+![image](Screenshots/Picture7.png)
 
 In the case of edges between Chinese-English and French-English streamers, the number of actual edges is significantly higher than expected. This could indicate that French or Chinese-speaking users are more likely to follow English-speaking users or vice versa, perhaps due to shared interests or content.
 Another cause might be a large number of Chinese-speaking immigrants in the United States, as for French-English, many people from countries who have been under French and British colonization such as Canada and India can speak both languages fluently.
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/5e757d6e-cc6e-4283-8ab5-c798f0fa9fe9)
+![image](Screenshots/Picture8.png)
 
 For people who speak Russian and German, The number of expected edges is always higher than the actual number (other than in the case of English which we explained earlier) this suggests that there are fewer users who speak German or Russian as an additional language.
 Another reason might be that Russian and German speakers do not tend to follow streamers who speak a different language than them and vice versa, this may be due to the difficulty of these languages, or cultural differences in general, where people from Russia or Germany have more niche interests that are culture-specific.
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/9312b77a-673f-45b1-a4d1-0586817b7269)
+![image](Screenshots/Picture9.png)
 
 The number of actual edges between users who speak the same language is significantly higher than expected for all the languages we checked. 
 This indicates that there is a strong tendency for people who speak the same language to form relationships with each other.
 This might stem from a variety of factors such as sharing common cultural values, beliefs, practices, and norms, shared interests in general, or greater ease of communication, where they don’t have to make an extra effort to understand what the other person is saying.
 
-![image](https://github.com/YounisMalak/Twitch-Social-Network-Analysis/assets/98539466/ebf6cb1c-b5dc-43ec-b7c1-a86080017695)
+![image](Screenshots/Picture10.png)
 
 # Findings
- Based on the results, it appears that language barriers do have an impact on the structure of social networks.
+Based on the results, it appears that language barriers do have an impact on the structure of social networks.
 
- The number of edges between nodes speaking different languages is generally lower than the expected number of edges, while the number of edges between nodes speaking the same language is generally and significantly higher than the expected number of edges. 
+The number of edges between nodes speaking different languages is generally lower than the expected number of edges, while the number of edges between nodes speaking the same language is generally and significantly higher than the expected number of edges. 
 
-  Findings suggest that people tend to form connections with others who speak the same language and that language barriers may limit the formation of connections across language groups. 
+Findings suggest that people tend to form connections with others who speak the same language and that language barriers may limit the formation of connections across language groups. 
 
- It’s important to note that this analysis is limited to this specific dataset, further research is needed to make more general conclusions about the impact of language barriers on social network structure.
+It’s important to note that this analysis is limited to this specific dataset, further research is needed to make more general conclusions about the impact of language barriers on social network structure.
 
- Thank you for taking the time to read through the research, please free to contact me with any questions or comments you have :D
+Thank you for taking the time to read through the research, please free to contact me with any questions or comments you have :D
